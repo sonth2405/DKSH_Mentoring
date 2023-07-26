@@ -3,13 +3,14 @@
 int main(void)
 {
 
-  int age;
-  printf("나이를 입력하세요: ");
-  scanf("%d", &age);
+  int num1, num2;
+  printf("숫자 두개를 입력하세요! :");
+  scanf("%d", &num1);
+  scanf("%d",&num2);
 
   printf("\n\n");
-  printf("당신은 %d살입니다!\n", age);
-
+  printf("num1 :%d\tnum2 :%d\n", num1, num2 );
+  
   return 0;
 }
 

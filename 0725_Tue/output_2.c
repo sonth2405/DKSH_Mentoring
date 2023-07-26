@@ -2,7 +2,7 @@
 
 int main(void)
 {
-  int num = 255;
+  int num = 0377;
 
   printf("--- 진법에 따른 형식지정자 ---\n");
   // 10진수

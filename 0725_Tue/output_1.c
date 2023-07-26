@@ -1,9 +1,12 @@
+// 입출력 1
 #include <stdio.h>
 
 int main(void){
 
   // printf 기본 사용법
   printf("단대소고 멘토링 3차시\n\n");
+
+  printf("탭은\t 이런 식으로 기능\n\n");
 
   // 형식 지정자 기초 - 정수
   int num1 = 17;
