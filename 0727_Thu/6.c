@@ -9,7 +9,7 @@ int main(void)
   if (gpa >= 4.2){
     printf("전액 장학금 대상자입니다.\n");
   }
-  else if ( gpa <= 4.3 && gpa >= 3.8){
+  else if ( gpa < 4.2 && gpa >= 3.8){
     printf("반액 장학금 대상자입니다.\n");
   }
   else {

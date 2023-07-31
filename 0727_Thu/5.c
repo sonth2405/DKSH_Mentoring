@@ -6,8 +6,8 @@ int main(void){
   if(age >=19){
     printf("당신은 성인입니다!\n");
   }
-  else{
-    printf("당신은 성인이 아닙ㄴ디ㅏ!\n");
+  else {
+    printf("당신은 성인이 아닙디ㅏ!\n");
   }
 }
 
