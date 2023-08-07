@@ -5,14 +5,13 @@
 
 int main(void){
 
-  printf("안녕하세요!\n");
-  printf("안녕하세요!\n");
-  printf("안녕하세요!\n");
-  printf("안녕하세요!\n");
-  printf("안녕하세요!\n");
-  printf("안녕하세요!\n");
-  printf("안녕하세요!\n");
-  printf("안녕하세요!\n");
+  // count 해줄 변수가 필요
+  int count = 0;
+
+  while (count < 8){
+    printf("안녕하세요!\n");
+    count ++ ;
+  }
 
   return 0;
 }

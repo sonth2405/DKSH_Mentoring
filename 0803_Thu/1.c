@@ -3,6 +3,7 @@
 
 // ++n
 // n++
+
 // --n
 // n--
 
@@ -15,8 +16,11 @@
 int main(void){
 
   int n = 3;
+  n+=3;
+  printf("%d %d\n", n, n);
 
-  printf("%d %d\n", n++, n);
+
+  // n = 7  
 
   return 0;
 }

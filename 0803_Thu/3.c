@@ -6,11 +6,12 @@
 int main(void) {
 
   int input;
+  int password = 5684;
 
-  do{
-    printf("정수 또는 0(종료)를 입력: ");
+  do {
+    printf("비밀번호를 맞춰주세요: ");
     scanf("%d", &input);
-  } while (input != 0);
-
+    input = 0;
+  } while (password != input);
 
 }
